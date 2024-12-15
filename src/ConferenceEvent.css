@@ -1,338 +1,409 @@
-/* Venue selection styles */
+/* 会場選択用のスタイル */
 .venue_container {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    align-items: center;
-    justify-content: center;
-    width: 80vw;
-    padding: 20px;
-    border-radius: 10px;
-    margin-left: -180px;
-    font-size: 24px;
-  }
-  
-  .venue_selection,.addons_selection , .meal_selection {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    width: 90vw;
-    margin-left: 250px;
-  }
-  
-  .venue_main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    border: 1px solid lightgrey;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    color: #333;
-    width: 300px;
-  }
-  .text h1{
-    width: 900px;
-    font-size: 40px;
-    background-color: #133b6a;
-    color: white;
-    width:990px;
-    height: 70px;
-    margin-left: 240px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-  }
-  .venue_main .text {
-    font-size: 30px;
-    color: #333;
-  }
-  .quantity-value {
-    margin: 0 10px;
-  }
-  .main_container{
-    display: flex;    
-  }
-  .items-information {
-    display: flex;
-    flex-direction: column;
-    gap: 90px;
-    margin-top: 100px;
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
-  
-  }
-  .meal_item {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .total_cost {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    font-size: 30px;
-    color: #333;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    padding: 10px;
-    width: 400px;
-    margin-top: 15px;
-    margin-left: 190px;
-  }
-  
-  .av_data {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 10px;
-    border: 1px solid lightgrey;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-    color: #000;
-  }
-
-  .input-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    font-size: 20px;
-  }
-  .input-container input {
-    width: 100px;
-    height: 30px;
-    border-radius: 5px;
-    border: 1px solid lightgrey;
-    padding: 13px;
-  }
-  .meal_selection {
-    display: flex;
-    flex-wrap: wrap;
-    width: 600px;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 20px;
-    margin-left: 280px;
-  }
-  .meal_selection input[type="checkbox"] {
-    width: 20px;
-    height: 20px;
-    padding: 5px;
-  }
-  .meal_selection label {
-    font-size: 25px;
-  }
-  .meal_item .inner {
-    display: flex;
-    flex-direction: row;
-  }
-  .meal_item .inner input {
-    width: 100px;
-    height: 30px;
-    border-radius: 5px;
-    border: 1px solid lightgrey;
-    padding: 5px;
-  }
-  .meal_item .meal_cost {
-    margin-left: 20px;
-    display: flex;
-    flex-direction: column;
-    font-size: 25px;
-    margin-left: 40px;
-  }
-  .venue_main .img img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
-  }
-  .display_box1 {
-    margin-top: 20px;
-    overflow-y: auto;
-    height: 300px;
-    scrollbar-width: thin;
-    scrollbar-color: #b7b4b4 transparent; 
-  }
-  
-  .display_box1::-webkit-scrollbar {
-    width: 8px; /* For Chrome, Safari, and Opera */
-  
-  }
-  
-  .display_box1::-webkit-scrollbar-track {
-    background-color: transparent; /* For Chrome, Safari, and Opera */
-    
-  }
-  
-  .display_box1::-webkit-scrollbar-thumb {
-    background-color: #ffffff; /* For Chrome, Safari, and Opera */
-  }
-  
-  .display_box1 {
-    padding-left: 20px;
-  }
-  .addons_btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-  }
-  .btn-success {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #5291D9;
-    color: black;
-    border: none;
-    width: 10px;
-    height: 30px;
-     border-radius: 5px;
-    cursor: pointer;
-  }
-  .btn-warning {
-    background-color: #52D7D9;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-    color: black;
-    width: 10px;
-    height: 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .input-container .input_box5{
-    height: 40px;
-    width: 200px;
-    font-size: 20px;
-  }
-  
-  .items_view{
-    font-size: 20px;
-  }
-  .table_item_data {
-    width: 70vw;
-    border-collapse: collapse;
-    margin-left: -6px;
-    
-  }
-  
-  .table_item_data th,
-  .table_item_data td {
-    padding: 8px;
-    border: 1px solid #ddd;
-    font-size: 23px;
-    
-  }
-  
-  .table_item_data th {
-    background-color: #f2f2f2;
-  }
-  
-  .table_item_data tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  
-  .table_item_data tbody tr:hover {
-    background-color: #f2f2f2;
-  }
-  
-  .table_item_data tbody tr:first-child:hover {
-    background-color: transparent;
-  }
-  navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 20px;
-    background-color:#133b6a;
-    color: white;
-    width: 100vw;
-  }
-  
-  .company_logo {
-    font-size: 30px;
-    color: #EFC16B;
-    font-weight: 700;
-  }
-  .nav_links{
-    display: flex;
-    gap: 170px;
-  }
-  .left_navbar{
-    width: 60vw;
-    display: flex;
-    gap: 180px;
-  
-  }
-  .nav_links a {
-    text-decoration: none;
-    color: white;
-    margin-right: 20px;
-    transition: all 0.3s ease;
-    font-size: 25px;
-  }
-  
-  .nav_links a:hover {
-    color: #ff9900;
-  }
-  .button_container{
-    /* background-color: red; */
-    width:200px ;
-    display: flex;
-    gap: 20px;
-  }
-  .details_button {
-    padding: 8px 16px;
-    background-color: #EFC16B;
-    color: black;
-    /* border: 1px solid white; */
-    font-size: 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    /* background-color: transparent; */
-  }
-  
-  
-  .navbar_event_conference{
-    position: fixed;
-    top: 1px;
-    z-index: 99;
-  }
-  .btn-disabled {
-    opacity: 0.5; /* Reduce opacity to visually indicate disabled state */
-    cursor: not-allowed; /* Change cursor to indicate that the button is not clickable */
-  }
-  @media (max-width: 700px) {
-    navbar {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 20px 20px;
-        background-color: #133b6a;
-        color: white;
-        width: 100vw;
-    }
-    .nav_links {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-    .left_navbar {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        gap: 0;
-    }
-
+  text-align: center; /* 中央揃えに設定 */
+  display: flex; /* フレックスボックスの有効化 */
+  flex-direction: column; /* フレックスアイテムを縦方向に並べる */
+  gap: 40px; /* アイテム間の間隔を40pxに設定 */
+  align-items: center; /* アイテムを中央揃えに配置 */
+  justify-content: center; /* コンテンツを中央に配置 */
+  width: 80vw; /* コンテナの幅をビューポートの80%に設定 */
+  padding: 20px; /* 内側の余白を20pxに設定 */
+  border-radius: 10px; /* 角を丸くする半径を10pxに設定 */
+  margin-left: -180px; /* 左側のマージンを-180pxに設定 */
+  font-size: 24px; /* フォントサイズを24pxに設定 */
 }
+
+.venue_selection, .addons_selection, .meal_selection {
+  display: flex; /* フレックスボックスの有効化 */
+  flex-wrap: wrap; /* アイテムを折り返して表示 */
+  gap: 30px; /* アイテム間の間隔を30pxに設定 */
+  width: 90vw; /* 幅をビューポートの90%に設定 */
+  margin-left: 250px; /* 左側のマージンを250pxに設定 */
+}
+
+.venue_main {
+  display: flex; /* フレックスボックスの有効化 */
+  flex-direction: column; /* フレックスアイテムを縦方向に並べる */
+  align-items: center; /* アイテムを中央揃えに配置 */
+  gap: 10px; /* アイテム間の間隔を10pxに設定 */
+  border: 1px solid lightgrey; /* 灰色の境界線を設定 */
+  border-radius: 10px; /* 角を丸くする半径を10pxに設定 */
+  padding: 10px; /* 内側の余白を10pxに設定 */
+  background-color: #f9f9f9; /* 背景色を薄い灰色に設定 */
+  color: #333; /* テキストの色を濃い灰色に設定 */
+  width: 300px; /* 幅を300pxに設定 */
+}
+
+.text h1 {
+  width: 900px; /* 見出しの幅を900pxに設定 */
+  font-size: 40px; /* フォントサイズを40pxに設定 */
+  background-color: #133b6a; /* 背景色を濃い青に設定 */
+  color: white; /* テキストの色を白に設定 */
+  width: 990px; /* 幅を990pxに設定 */
+  height: 70px; /* 高さを70pxに設定 */
+  margin-left: 240px; /* 左側のマージンを240pxに設定 */
+  display: flex; /* フレックスボックスの有効化 */
+  align-items: center; /* アイテムを中央揃えに配置 */
+  justify-content: center; /* コンテンツを中央に配置 */
+}
+
+.venue_main .text {
+  font-size: 30px; /* フォントサイズを30pxに設定 */
+  color: #333; /* テキストの色を濃い灰色に設定 */
+}
+
+.quantity-value {
+  margin: 0 10px; /* 左右のマージンを10pxに設定 */
+}
+
+.main_container {
+  display: flex; /* フレックスボックスの有効化 */
+}
+
+.items-information {
+  display: flex; /* フレックスボックスの有効化 */
+  flex-direction: column; /* フレックスアイテムを縦方向に並べる */
+  gap: 90px; /* アイテム間の間隔を90pxに設定 */
+  margin-top: 100px; /* 上側のマージンを100pxに設定 */
+  width: 100vw; /* 幅をビューポートの100%に設定 */
+  align-items: center; /* アイテムを中央揃えに配置 */
+  justify-content: center; /* コンテンツを中央に配置 */
+}
+
+.meal_item {
+  display: flex; /* フレックスボックスの有効化 */
+  flex-direction: column; /* フレックスアイテムを縦方向に並べる */
+  gap: 10px; /* アイテム間の間隔を10pxに設定 */
+}
+
+.total_cost {
+  display: flex; /* フレックスボックスの有効化 */
+  justify-content: center; /* コンテンツを中央に配置 */
+  align-items: center; /* アイテムを中央揃えに配置 */
+  gap: 20px; /* アイテム間の間隔を20pxに設定 */
+  font-size: 30px; /* フォントサイズを30pxに設定 */
+  color: #333; /* テキストの色を濃い灰色に設定 */
+  background-color: #f9f9f9; /* 背景色を薄い灰色に設定 */
+  border-radius: 10px; /* 角を丸くする半径を10pxに設定 */
+  padding: 10px; /* 内側の余白を10pxに設定 */
+  width: 400px; /* 幅を400pxに設定 */
+  margin-top: 15px; /* 上側のマージンを15pxに設定 */
+  margin-left: 190px; /* 左側のマージンを190pxに設定 */
+}
+
+.av_data {
+  display: flex; /* フレックスボックスの有効化 */
+  flex-direction: column; /* フレックスアイテムを縦方向に並べる */
+  align-items: center; /* アイテムを中央揃えに配置 */
+  gap: 20px; /* アイテム間の間隔を20pxに設定 */
+  padding: 10px; /* 内側の余白を10pxに設定 */
+  border: 1px solid lightgrey; /* 灰色の境界線を設定 */
+  border-radius: 10px; /* 角を丸くする半径を10pxに設定 */
+  background-color: #f9f9f9; /* 背景色を薄い灰色に設定 */
+  color: #000; /* テキストの色を黒に設定 */
+}
+
+.input-container {
+  display: flex; /* フレックスボックスの有効化 */
+  align-items: center; /* アイテムを中央揃えに配置 */
+  justify-content: center; /* コンテンツを中央に配置 */
+  gap: 10px; /* アイテム間の間隔を10pxに設定 */
+  font-size: 20px; /* フォントサイズを20pxに設定 */
+}
+
+.input-container input {
+  width: 100px; /* 入力フィールドの幅を100pxに設定 */
+  height: 30px; /* 入力フィールドの高さを30pxに設定 */
+  border-radius: 5px; /* 角を丸くする半径を5pxに設定 */
+  border: 1px solid lightgrey; /* 灰色の境界線を設定 */
+  padding: 13px; /* 内側の余白を13pxに設定 */
+}
+
+
+
+
+/* 食事の選択エリアのスタイル設定 */
+.meal_selection {
+  display: flex; /* フレックスボックスで配置 */
+  flex-wrap: wrap; /* コンテンツを折り返す */
+  width: 600px; /* コンテナの幅を設定 */
+  align-items: center; /* 縦方向に中央揃え */
+  justify-content: flex-start; /* 横方向に左寄せ */
+  gap: 20px; /* 子要素間の間隔を設定 */
+  margin-left: 280px; /* 左側の余白を設定 */
+}
+
+/* 食事選択のチェックボックスのスタイル */
+.meal_selection input[type="checkbox"] {
+  width: 20px; /* チェックボックスの幅 */
+  height: 20px; /* チェックボックスの高さ */
+  padding: 5px; /* チェックボックスの内側余白 */
+}
+
+/* 食事選択のラベルのスタイル */
+.meal_selection label {
+  font-size: 25px; /* ラベルのフォントサイズ */
+}
+
+/* 食事項目の内側エリアのスタイル */
+.meal_item .inner {
+  display: flex; /* フレックスボックスで配置 */
+  flex-direction: row; /* 横方向に並べる */
+}
+
+/* 内側エリアの入力フィールドのスタイル */
+.meal_item .inner input {
+  width: 100px; /* 入力フィールドの幅 */
+  height: 30px; /* 入力フィールドの高さ */
+  border-radius: 5px; /* 角を丸める */
+  border: 1px solid lightgrey; /* 枠線の色とスタイル */
+  padding: 5px; /* 入力フィールドの内側余白 */
+}
+
+/* 食事コストのスタイル */
+.meal_item .meal_cost {
+  margin-left: 20px; /* 左側の余白 */
+  display: flex; /* フレックスボックスで配置 */
+  flex-direction: column; /* 縦方向に並べる */
+  font-size: 25px; /* フォントサイズを設定 */
+  margin-left: 40px; /* 左側の余白を追加 */
+}
+
+/* 施設の画像スタイル */
+.venue_main .img img {
+  width: 100%; /* 画像の幅を親要素に合わせる */
+  height: 200px; /* 画像の高さを設定 */
+  object-fit: cover; /* 画像をコンテナにフィットさせる */
+  border-radius: 10px; /* 角を丸める */
+}
+
+/* 表示ボックス1のスタイル */
+.display_box1 {
+  margin-top: 20px; /* 上部の余白を設定 */
+  overflow-y: auto; /* 縦方向のスクロールを有効化 */
+  height: 300px; /* ボックスの高さを設定 */
+  scrollbar-width: thin; /* スクロールバーの幅を設定（Firefox用） */
+  scrollbar-color: #b7b4b4 transparent; /* スクロールバーの色を設定（Firefox用） */
+}
+
+/* Webkit系ブラウザのスクロールバーの幅 */
+.display_box1::-webkit-scrollbar {
+  width: 8px; /* スクロールバーの幅を設定 */
+}
+
+/* Webkit系ブラウザのスクロールバートラックの背景色 */
+.display_box1::-webkit-scrollbar-track {
+  background-color: transparent; /* トラックの背景色を透明にする */
+}
+
+/* Webkit系ブラウザのスクロールバースクロール部の色 */
+.display_box1::-webkit-scrollbar-thumb {
+  background-color: #ffffff; /* スクロールバーの色 */
+}
+
+/* 表示ボックス1の内側余白 */
+.display_box1 {
+  padding-left: 20px; /* 左側の内側余白を設定 */
+}
+
+/* 追加ボタンのコンテナのスタイル */
+.addons_btn {
+  display: flex; /* フレックスボックスで配置 */
+  align-items: center; /* 縦方向に中央揃え */
+  justify-content: center; /* 横方向に中央揃え */
+}
+
+
+
+
+
+
+
+/* 成功ボタンのスタイル */
+.btn-success {
+  display: flex; /* フレックスボックスで配置 */
+  align-items: center; /* 縦方向に中央揃え */
+  justify-content: center; /* 横方向に中央揃え */
+  background-color: #5291D9; /* 背景色を青に設定 */
+  color: black; /* 文字色を黒に設定 */
+  border: none; /* ボーダーをなしにする */
+  width: 10px; /* ボタンの幅 */
+  height: 30px; /* ボタンの高さ */
+  border-radius: 5px; /* 角を丸くする */
+  cursor: pointer; /* カーソルをポインタに変更 */
+}
+
+/* 警告ボタンのスタイル */
+.btn-warning {
+  background-color: #52D7D9; /* 背景色を水色に設定 */
+  display: flex; /* フレックスボックスで配置 */
+  align-items: center; /* 縦方向に中央揃え */
+  justify-content: center; /* 横方向に中央揃え */
+  color: black; /* 文字色を黒に設定 */
+  width: 10px; /* ボタンの幅 */
+  height: 30px; /* ボタンの高さ */
+  border: none; /* ボーダーをなしにする */
+  border-radius: 5px; /* 角を丸くする */
+  cursor: pointer; /* カーソルをポインタに変更 */
+}
+
+/* 入力ボックスのスタイル */
+.input-container .input_box5 {
+  height: 40px; /* 高さを設定 */
+  width: 200px; /* 幅を設定 */
+  font-size: 20px; /* フォントサイズを設定 */
+}
+
+/* アイテム表示のフォントスタイル */
+.items_view {
+  font-size: 20px; /* フォントサイズを設定 */
+}
+
+/* テーブル全体のスタイル */
+.table_item_data {
+  width: 70vw; /* テーブルの幅をビューポート幅の70%に設定 */
+  border-collapse: collapse; /* ボーダーを結合 */
+  margin-left: -6px; /* 左側のマージンを設定 */
+}
+
+/* テーブルのヘッダーとデータセルのスタイル */
+.table_item_data th,
+.table_item_data td {
+  padding: 8px; /* セル内の余白 */
+  border: 1px solid #ddd; /* 枠線の色とスタイル */
+  font-size: 23px; /* フォントサイズを設定 */
+}
+
+/* テーブルヘッダーの背景色 */
+.table_item_data th {
+  background-color: #f2f2f2; /* 明るいグレーの背景色 */
+}
+
+/* 偶数行の背景色 */
+.table_item_data tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* 明るいグレーの背景色 */
+}
+
+/* 行をホバーしたときの背景色 */
+.table_item_data tbody tr:hover {
+  background-color: #f2f2f2; /* 明るいグレーの背景色 */
+}
+
+/* 最初の行をホバーしたときの背景色を透明に */
+.table_item_data tbody tr:first-child:hover {
+  background-color: transparent; /* 背景を透明に */
+}
+
+/* ナビゲーションバーのスタイル */
+navbar {
+  display: flex; /* フレックスボックスで配置 */
+  justify-content: space-between; /* 要素を両端に配置 */
+  align-items: center; /* 縦方向に中央揃え */
+  padding: 20px 20px; /* 上下左右のパディングを設定 */
+  background-color: #133b6a; /* 背景色を濃い青に設定 */
+  color: white; /* テキストの色を白に設定 */
+  width: 100vw; /* ナビゲーションバーの幅をビューポート幅全体に設定 */
+}
+
+/* 会社ロゴのスタイル */
+.company_logo {
+  font-size: 30px; /* フォントサイズを設定 */
+  color: #EFC16B; /* ロゴの色を黄色に設定 */
+  font-weight: 700; /* フォントを太字に設定 */
+}
+
+/* ナビゲーションリンクのスタイル */
+.nav_links {
+  display: flex; /* フレックスボックスで配置 */
+  gap: 170px; /* リンク間の間隔 */
+}
+
+/* 左側のナビゲーションバーのスタイル */
+.left_navbar {
+  width: 60vw; /* 幅をビューポート幅の60%に設定 */
+  display: flex; /* フレックスボックスで配置 */
+  gap: 180px; /* 要素間の間隔 */
+}
+
+
+
+
+
+/* ナビゲーションリンクのスタイル */
+.nav_links a {
+  text-decoration: none; /* テキストの装飾を削除 */
+  color: white; /* リンクの文字色を白に設定 */
+  margin-right: 20px; /* 右側のマージンを設定 */
+  transition: all 0.3s ease; /* なめらかな変化を設定 */
+  font-size: 25px; /* フォントサイズを設定 */
+}
+
+/* ナビゲーションリンクをホバーしたときのスタイル */
+.nav_links a:hover {
+  color: #ff9900; /* ホバー時に文字色をオレンジに変更 */
+}
+
+/* ボタンコンテナのスタイル */
+.button_container {
+  /* background-color: red; 背景色を赤に設定（コメントアウト中） */
+  width: 200px; /* コンテナの幅を設定 */
+  display: flex; /* フレックスボックスで配置 */
+  gap: 20px; /* 要素間の間隔を設定 */
+}
+
+/* 詳細ボタンのスタイル */
+.details_button {
+  padding: 8px 16px; /* 内側の余白を設定 */
+  background-color: #EFC16B; /* 背景色を黄色に設定 */
+  color: black; /* 文字色を黒に設定 */
+  /* border: 1px solid white; ボーダーを設定（コメントアウト中） */
+  font-size: 20px; /* フォントサイズを設定 */
+  border-radius: 5px; /* ボタンの角を丸くする */
+  cursor: pointer; /* カーソルをポインタに変更 */
+  transition: all 0.3s ease; /* なめらかな変化を設定 */
+  /* background-color: transparent; 背景色を透明に設定（コメントアウト中） */
+}
+
+/* イベントカンファレンス用ナビゲーションバーのスタイル */
+.navbar_event_conference {
+  position: fixed; /* 固定位置に設定 */
+  top: 1px; /* 上端から1pxの位置に設定 */
+  z-index: 99; /* レイヤーの順序を最前面に設定 */
+}
+
+/* 無効化されたボタンのスタイル */
+.btn-disabled {
+  opacity: 0.5; /* ボタンの不透明度を減らして無効状態を視覚的に表示 */
+  cursor: not-allowed; /* カーソルを「禁止」にする */
+}
+
+/* メディアクエリ（最大幅700pxの場合のスタイル） */
+@media (max-width: 700px) {
+  /* ナビゲーションバーのスタイル */
+  navbar {
+      display: flex; /* フレックスボックスで配置 */
+      flex-direction: column; /* 縦方向に配置 */
+      justify-content: center; /* 中央揃え */
+      align-items: center; /* 中央揃え */
+      padding: 20px 20px; /* パディングを設定 */
+      background-color: #133b6a; /* 背景色を濃い青に設定 */
+      color: white; /* テキストの色を白に設定 */
+      width: 100vw; /* 幅をビューポート幅全体に設定 */
+  }
+
+  /* ナビゲーションリンクのスタイル */
+  .nav_links {
+      display: flex; /* フレックスボックスで配置 */
+      flex-direction: column; /* 縦方向に配置 */
+      gap: 20px; /* リンク間の間隔を設定 */
+  }
+
+  /* 左側のナビゲーションバーのスタイル */
+  .left_navbar {
+      width: 100%; /* 幅を100%に設定 */
+      display: flex; /* フレックスボックスで配置 */
+      justify-content: center; /* 中央揃え */
+      gap: 0; /* 要素間の間隔を0に設定 */
+  }
+}
+

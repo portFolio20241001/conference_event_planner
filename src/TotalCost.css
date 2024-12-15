@@ -1,40 +1,38 @@
 .pricing-app {
- margin-top: 20px;
- /* margin-left: 40vw; */
- width: 100vw;
- height: 100vh;
- display: flex;
- align-items: center;
- justify-content: center;
+  margin-top: 20px; /* 上に20pxの余白を設定 */
+  /* margin-left: 40vw; 左に40vwの余白を設定（コメントアウトされています） */
+  width: 100vw; /* 幅を100vwに設定（画面幅の100%） */
+  height: 100vh; /* 高さを100vhに設定（画面高さの100%） */
+  display: flex; /* フレックスボックスレイアウトを使用 */
+  align-items: center; /* アイテムを垂直方向に中央揃え */
+  justify-content: center; /* アイテムを水平方向に中央揃え */
 }
-
 
 .display_box {
-  text-align: center;
-  box-sizing: border-box;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-  background-color: white;
-  color: #333;
-  margin: 0;
-  padding: 55px;
-  width: 80vw;
+  text-align: center; /* テキストを中央揃え */
+  box-sizing: border-box; /* パディングとボーダーを含むボックスサイズを指定 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 影を追加してボックスに立体感を出す */
+  border-radius: 15px; /* ボックスの角を丸くする */
+  background-color: white; /* 背景色を白に設定 */
+  color: #333; /* 文字色を#333（ダークグレー）に設定 */
+  margin: 0; /* 上下左右のマージンを0に設定 */
+  padding: 55px; /* パディングを55pxに設定 */
+  width: 80vw; /* 幅を80vwに設定（画面幅の80%） */
 }
 
-
 .pricing-app .preheading {
-  font-family: dosis, sans-serif;
-  text-transform: uppercase;
-  line-height: 1;
-  margin: 0;
-  /* padding: 0 0 10px; */
-  font-size: 25px;
+  font-family: dosis, sans-serif; /* フォントをdosis（サンセリフ）に設定 */
+  text-transform: uppercase; /* テキストをすべて大文字に変換 */
+  line-height: 1; /* 行間を1に設定 */
+  margin: 0; /* 上下左右のマージンを0に設定 */
+  /* padding: 0 0 10px; パディングを設定（コメントアウトされています） */
+  font-size: 25px; /* フォントサイズを25pxに設定 */
 }
 
 .pricing-app h2 {
-  font-size: 60px;
+  font-size: 60px; /* h2タグのフォントサイズを60pxに設定 */
 }
 
 .right {
-  margin-right: 0;
+  margin-right: 0; /* 右側のマージンを0に設定 */
 }
